@@ -1,0 +1,1 @@
+Core的数据库连接字符串已经不是在Webconfig中配置，已经默认移到AppSettings.json中

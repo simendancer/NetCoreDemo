@@ -1,0 +1,70 @@
+﻿@model Model.User
+@inject Core.Service.UserService userservice
+
+<div class="container marketing">
+    <div class="row">
+        <div class="col-lg-4">
+
+            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>@(userservice.IsLogin ? Model.UserName : "")</h2>
+            <p>邮箱：@(userservice.IsLogin ? Model.Email : "") 网址：@(userservice.IsLogin ? Model.WebSite : "")</p>
+            <p><a class="btn btn-default" href="/" role="button">Back To Home &raquo;</a></p>
+            @if (userservice.IsLogin)
+            {
+                <p>已登录</p>
+            }
+            else
+            {
+                <p>未登录</p>
+            }
+        </div>
+    </div>
+</div>
+<div class="container marketing" style="margin:50px 0;">
+    <p>---------测试获取Cookie配置名-------------</p>
+    <p>@userservice.CookieName</p>
+    <p>---------测试获取Cookie值-------------</p>
+    <p>@ViewBag.cookie1</p>
+    <p>@ViewBag.cookie2</p>
+    <p>------------测试获取Redis的String----------</p>
+    <p>@ViewBag.name1</p>
+    <p>@ViewBag.name2</p>
+    <p>@ViewBag.name3</p>
+    <p>@ViewBag.name4</p>
+    <p>@ViewBag.name5</p>
+    @if (ViewBag.list != null && (ViewBag.list as List<string>).Count > 0)
+    {
+        <p>------------测试获取Redis的List----------</p>
+        @foreach (var item in ViewBag.list)
+        {
+            <p>@item</p>
+        }
+    }
+    <h2 class="sub-header">用户列表</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Website</th>
+                    <th>RegTime</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.userList as IList<Model.User>)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.UserName</td>
+                        <td>@item.Email</td>
+                        <td>@item.WebSite</td>
+                        <td>@item.CreateDate</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.Raw(ViewBag.pageHtml)
+    </div>
+</div>

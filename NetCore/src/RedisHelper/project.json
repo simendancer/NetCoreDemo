@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Tools": "1.0.0",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Options": "1.0.0",
+    "NETStandard.Library": "1.6.0",
+    "StackExchange.Redis": "1.1.604-alpha",
+    "System.Diagnostics.TraceSource": "4.0.0-rc2-24027"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

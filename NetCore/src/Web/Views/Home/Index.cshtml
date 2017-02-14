@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:150px;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Test</h1>
+                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                    <p><a class="btn btn-lg btn-primary" href="javascript:void(0)" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item active">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Test</h1>
+                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                    <p><a class="btn btn-lg btn-primary" href="javascript:void(0)" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item active">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Test</h1>
+                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                    <p><a class="btn btn-lg btn-primary" href="javascript:void(0)" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container marketing">
+    <div class="row">
+        @foreach (var t in ViewBag.Dic as Dictionary<string, string>)
+        {
+            <div class="col-lg-4">
+                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>@t.Key</h2>
+                <p>@t.Value</p>
+                <p><a class="btn btn-default" href="javascript:void(0)" role="button">View details &raquo;</a></p>
+            </div>
+        }
+    </div>
+</div>
+<div class="container marketing" style="margin:50px 0;">
+</div>
+<div class="container marketing">
+    <div class="row">
+        @foreach (var t in ViewBag.Names as string[])
+        {
+            <div class="col-lg-4">
+                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>@t</h2>
+                <p><a class="btn btn-default" href="javascript:void(0)" role="button">View details &raquo;</a></p>
+            </div>
+        }
+    </div>
+</div>
