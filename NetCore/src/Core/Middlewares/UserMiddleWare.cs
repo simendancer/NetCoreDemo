@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Core.Service;
 
-namespace Web.Middlewares
+namespace Core.Middlewares
 {
     public class UserMiddleWare
     {
@@ -19,9 +19,7 @@ namespace Web.Middlewares
 
         public Task Invoke(HttpContext httpContext)
         {
-            var user = httpContext.RequestServices.GetService<UserService>();
-            user.Init(httpContext);//获取用户信息
-
+            httpContext.RequestServices.GetService<UserService>().Init(httpContext);
             return _next(httpContext);
         }
     }

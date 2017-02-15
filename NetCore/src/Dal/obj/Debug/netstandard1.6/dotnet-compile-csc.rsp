@@ -8,8 +8,8 @@
 -debug:full
 -nostdlib
 -nologo
-"E:\workspace\开源代码\.Net Core\NetCore\src\Dal\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
--out:"E:\workspace\开源代码\.Net Core\NetCore\src\Dal\bin\Debug\netstandard1.6\Dal.dll"
+"E:\Git\MyRepository\NetCore\NetCore\src\Dal\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
+-out:"E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Dal.dll"
 -r:"C:\Users\Hy\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\Hy\.nuget\packages\Microsoft.AspNetCore.Hosting.Abstractions\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Abstractions.dll"
 -r:"C:\Users\Hy\.nuget\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll"
@@ -99,10 +99,10 @@
 -r:"C:\Users\Hy\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Hy\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Hy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--r:"E:\workspace\开源代码\.Net Core\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.dll"
--r:"E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.dll"
--r:"E:\workspace\开源代码\.Net Core\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll"
--r:"E:\workspace\开源代码\.Net Core\NetCore\src\Model\bin\Debug\netstandard1.6\Model.dll"
-"E:\workspace\开源代码\.Net Core\NetCore\src\Dal\BaseRepository.cs"
-"E:\workspace\开源代码\.Net Core\NetCore\src\Dal\DalUser.cs"
-"E:\workspace\开源代码\.Net Core\NetCore\src\Dal\Properties\AssemblyInfo.cs"
+-r:"E:\Git\MyRepository\NetCore\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.dll"
+-r:"E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.dll"
+-r:"E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll"
+-r:"E:\Git\MyRepository\NetCore\NetCore\src\Model\bin\Debug\netstandard1.6\Model.dll"
+"E:\Git\MyRepository\NetCore\NetCore\src\Dal\BaseRepository.cs"
+"E:\Git\MyRepository\NetCore\NetCore\src\Dal\DalUser.cs"
+"E:\Git\MyRepository\NetCore\NetCore\src\Dal\Properties\AssemblyInfo.cs"

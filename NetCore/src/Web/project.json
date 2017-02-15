@@ -4,7 +4,6 @@
     "Model": "1.0.0",
     "Tools": "1.0.0",
     "Core": "1.0.0",
-    "RedisHelper": "1.0.0",
     "Microsoft.NETCore.App": {
       "version": "1.0.0",
       "type": "platform"

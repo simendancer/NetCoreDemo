@@ -1,5 +1,5 @@
---temp-output:E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\obj\Debug\netstandard1.6\
---out:E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.dll
+--temp-output:E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\obj\Debug\netstandard1.6\
+--out:E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -101,28 +101,28 @@
 --reference:C:\Users\Hy\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Hy\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Hy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\DapperExtensions.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\DapperExtensionsConfiguration.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\DapperImplementor.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Database.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\GetMultiplePredicate.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\GetMultipleResult.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\IDataRepository.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\IDataServiceRepository.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Predicates.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\ReflectionHelper.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\RepositoryBase.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\RepositoryServiceBase.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Mapper\AutoClassMapper.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Mapper\ClassMapper.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Mapper\PluralizedAutoClassMapper.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Mapper\PropertyMap.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Properties\AssemblyInfo.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Sql\PostgreSqlDialect.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Sql\SqlCeDialect.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Sql\SqlDialectBase.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Sql\SqlGenerator.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Sql\SqliteDialect.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\Sql\SqlServerDialect.cs
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.dll
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\DapperExtensions.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\DapperExtensionsConfiguration.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\DapperImplementor.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Database.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\GetMultiplePredicate.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\GetMultipleResult.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\IDataRepository.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\IDataServiceRepository.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Predicates.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\ReflectionHelper.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\RepositoryBase.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\RepositoryServiceBase.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Mapper\AutoClassMapper.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Mapper\ClassMapper.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Mapper\PluralizedAutoClassMapper.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Mapper\PropertyMap.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Properties\AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Sql\PostgreSqlDialect.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Sql\SqlCeDialect.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Sql\SqlDialectBase.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Sql\SqlGenerator.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Sql\SqliteDialect.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\Sql\SqlServerDialect.cs

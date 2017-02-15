@@ -1,28 +1,26 @@
-﻿using Core.Service;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
 
-namespace Web.Middlewares
+namespace Core.Middlewares
 {
-    public class RedisMiddleWare
+    public class CookieMiddleWare
     {
         private readonly RequestDelegate _next;
 
         private static IConfiguration Configuration { get; set; }
 
-        public RedisMiddleWare(RequestDelegate next)
+        public CookieMiddleWare(RequestDelegate next)
         {
             _next = next;
         }
 
         public Task Invoke(HttpContext httpContext, IConfiguration configuration)
         {
-            RedisHelper.RedisProvider.Instance(configuration);//实例化redis
+            Tools.Utility.CookieHelper.Instance(httpContext);//实例化cookie
             return _next(httpContext);
         }
     }

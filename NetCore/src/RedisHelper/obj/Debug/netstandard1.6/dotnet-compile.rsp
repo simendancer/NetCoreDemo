@@ -1,5 +1,5 @@
---temp-output:E:\workspace\开源代码\.Net Core\NetCore\src\RedisHelper\obj\Debug\netstandard1.6\
---out:E:\workspace\开源代码\.Net Core\NetCore\src\RedisHelper\bin\Debug\netstandard1.6\RedisHelper.dll
+--temp-output:E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\obj\Debug\netstandard1.6\
+--out:E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\bin\Debug\netstandard1.6\RedisHelper.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -88,6 +88,6 @@
 --reference:C:\Users\Hy\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Hy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\Hy\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\Tools\bin\Debug\netstandard1.6\Tools.dll
-E:\workspace\开源代码\.Net Core\NetCore\src\RedisHelper\RedisProvider.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\RedisHelper\Properties\AssemblyInfo.cs
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\Tools\bin\Debug\netstandard1.6\Tools.dll
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\RedisProvider.cs
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\Properties\AssemblyInfo.cs

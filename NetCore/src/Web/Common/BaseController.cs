@@ -12,7 +12,7 @@ namespace Web.Common
     {
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            var configuration = context.HttpContext.RequestServices.GetService<IConfiguration>();
+            var configuration = context.HttpContext.RequestServices.GetService<IConfiguration>(); 
             base.OnActionExecuting(context);
         }
 

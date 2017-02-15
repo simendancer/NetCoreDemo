@@ -1,5 +1,5 @@
---temp-output:E:\workspace\开源代码\.Net Core\NetCore\src\Bll\obj\Debug\netstandard1.6\
---out:E:\workspace\开源代码\.Net Core\NetCore\src\Bll\bin\Debug\netstandard1.6\Bll.dll
+--temp-output:E:\Git\MyRepository\NetCore\NetCore\src\Bll\obj\Debug\netstandard1.6\
+--out:E:\Git\MyRepository\NetCore\NetCore\src\Bll\bin\Debug\netstandard1.6\Bll.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -101,11 +101,11 @@
 --reference:C:\Users\Hy\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Hy\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Hy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\Dal\bin\Debug\netstandard1.6\Dal.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll
---reference:E:\workspace\开源代码\.Net Core\NetCore\src\Model\bin\Debug\netstandard1.6\Model.dll
-E:\workspace\开源代码\.Net Core\NetCore\src\Bll\BllUser.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\Bll\ServiceBase.cs
-E:\workspace\开源代码\.Net Core\NetCore\src\Bll\Properties\AssemblyInfo.cs
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Dal.dll
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.dll
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.dll
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll
+--reference:E:\Git\MyRepository\NetCore\NetCore\src\Model\bin\Debug\netstandard1.6\Model.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Bll\BllUser.cs
+E:\Git\MyRepository\NetCore\NetCore\src\Bll\ServiceBase.cs
+E:\Git\MyRepository\NetCore\NetCore\src\Bll\Properties\AssemblyInfo.cs

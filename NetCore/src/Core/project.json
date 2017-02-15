@@ -4,6 +4,8 @@
   "dependencies": {
     "Model": "1.0.0-*",
     "Bll": "1.0.0",
+    "Tools": "1.0.0",
+    "RedisHelper": "1.0.0",
     "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
     "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
     "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
