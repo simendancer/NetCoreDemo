@@ -40,7 +40,7 @@ namespace Api
             services.AddApplicationInsightsTelemetry(Configuration);
             services.AddOptions();
             services.AddMvc();
-            ////自定义拓展服务
+            //自定义拓展服务
             services.AddCustomerServices();
         }
 
@@ -54,19 +54,19 @@ namespace Api
 
             app.UseApplicationInsightsExceptionTelemetry();
 
-            ////注册静态文件访问
+            //注册静态文件访问
             app.UseStaticFiles();
 
-            ////数据访问中间件
+            //数据访问中间件
             app.DataAccessMiddleWare();
 
-            ////注册cookie中间件
+            //注册cookie中间件
             app.CookieMiddleWare();
 
-            ////注册redis中间件
+            //注册redis中间件
             app.RedisMiddleWare();
 
-            ////注册到用户中心中间件
+            //注册到用户中心中间件
             app.UserMiddleWare();
 
             //注册MVC
