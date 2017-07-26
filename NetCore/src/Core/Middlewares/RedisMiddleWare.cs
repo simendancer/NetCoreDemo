@@ -15,14 +15,14 @@ namespace Core.Middlewares
 
         private static IConfiguration Configuration { get; set; }
 
-        public RedisMiddleWare(RequestDelegate next)
+        public RedisMiddleWare(RequestDelegate next, IConfiguration configuration)
         {
+            RedisHelper.RedisProvider.Instance(configuration);//实例化redis
             _next = next;
         }
 
-        public Task Invoke(HttpContext httpContext, IConfiguration configuration)
+        public Task Invoke(HttpContext httpContext)
         {
-            RedisHelper.RedisProvider.Instance(configuration);//实例化redis
             return _next(httpContext);
         }
     }

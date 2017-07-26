@@ -7,10 +7,11 @@ namespace Core
     {
         public static void AddCustomerServices(this IServiceCollection services)
         {
-            services.AddScoped<DataAccessService>()
-                     .AddScoped<RedisService>()
-                    .AddScoped<CookieService>()
+            services.AddSingleton<DataAccessService>()
+                     .AddSingleton<RedisService>()
+                    .AddSingleton<CookieService>()
                    .AddScoped<UserService>();
+
         }
     }
 }

@@ -1,0 +1,6 @@
+E:\Git\MyRepository\NetCore\NetCore\DataModel\bin\Debug\netstandard1.4\DataModel.deps.json
+E:\Git\MyRepository\NetCore\NetCore\DataModel\bin\Debug\netstandard1.4\DataModel.dll
+E:\Git\MyRepository\NetCore\NetCore\DataModel\bin\Debug\netstandard1.4\DataModel.pdb
+E:\Git\MyRepository\NetCore\NetCore\DataModel\obj\Debug\netstandard1.4\DataModel.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\DataModel\obj\Debug\netstandard1.4\DataModel.dll
+E:\Git\MyRepository\NetCore\NetCore\DataModel\obj\Debug\netstandard1.4\DataModel.pdb

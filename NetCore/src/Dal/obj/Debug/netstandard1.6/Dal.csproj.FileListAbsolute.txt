@@ -1,0 +1,15 @@
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Dal.deps.json
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Dal.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Dal.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Dapper.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\DapperExtensions.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\DataAccess.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Model.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\DapperExtensions.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Model.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\Dapper.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\bin\Debug\netstandard1.6\DataAccess.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\obj\Debug\netstandard1.6\Dal.csprojResolveAssemblyReference.cache
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\obj\Debug\netstandard1.6\Dal.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\obj\Debug\netstandard1.6\Dal.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dal\obj\Debug\netstandard1.6\Dal.pdb

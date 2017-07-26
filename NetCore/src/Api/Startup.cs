@@ -42,6 +42,13 @@ namespace Api
             services.AddMvc();
             //自定义拓展服务
             services.AddCustomerServices();
+
+            #region 跨域
+            var urls = Configuration["AppConfig:Cores"].Split(',');
+            services.AddCors(options =>
+            options.AddPolicy("AllowDomain", builder => builder.WithOrigins(urls).AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin().AllowCredentials())
+            );
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -71,6 +78,9 @@ namespace Api
 
             //注册MVC
             app.UseMvc();
+
+            //添加跨域
+            app.UseCors("AllowDomain");
         }
     }
 }

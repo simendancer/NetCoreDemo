@@ -1,0 +1,6 @@
+E:\Git\MyRepository\NetCore\NetCore\src\Model\bin\Debug\netstandard1.6\Model.deps.json
+E:\Git\MyRepository\NetCore\NetCore\src\Model\bin\Debug\netstandard1.6\Model.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Model\bin\Debug\netstandard1.6\Model.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Model\obj\Debug\netstandard1.6\Model.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\Model\obj\Debug\netstandard1.6\Model.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Model\obj\Debug\netstandard1.6\Model.pdb

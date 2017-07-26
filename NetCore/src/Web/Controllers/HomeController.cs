@@ -95,5 +95,10 @@ namespace Web.Controllers
             ViewBag.pageHtml = pageHtml;
             return View(UserService.CurrentUser);
         }
+
+        public ActionResult Report()
+        {
+            return View();
+        }
     }
 }

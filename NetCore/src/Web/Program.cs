@@ -12,6 +12,7 @@ namespace Web
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
+                .UseUrls("http://web.core.com:8000")
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()

@@ -13,6 +13,7 @@ namespace Api
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
+                .UseUrls("http://api.core.com:9000")
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()

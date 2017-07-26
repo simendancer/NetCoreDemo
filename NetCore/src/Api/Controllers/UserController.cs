@@ -41,13 +41,13 @@ namespace Api.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("getuser/{id}")]
-        public Model.User GetUser(int id)
+        public object GetUser(int id)
         {
             var model = Bll.BllUser.Instance.GetById<Model.User>(id);
             string cookie = Tools.Utility.CookieHelper.GetValue("YZX");
             string name = RedisHelper.RedisProvider.StringGetSync("XuZ");
 
-            return model;
+            return Json(new { status = 200, data = model, name = name, cookie = cookie });
         }
     }
 }

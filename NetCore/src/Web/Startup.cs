@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Core;
+using Microsoft.AspNetCore.Http;
 
 namespace Web
 {
@@ -29,6 +30,7 @@ namespace Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IConfiguration>(this.Configuration);
+            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddApplicationInsightsTelemetry(Configuration);
             services.AddMvc();
             services.AddOptions();

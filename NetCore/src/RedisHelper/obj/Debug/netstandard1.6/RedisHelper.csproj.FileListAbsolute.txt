@@ -1,0 +1,9 @@
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\bin\Debug\netstandard1.6\RedisHelper.deps.json
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\bin\Debug\netstandard1.6\RedisHelper.dll
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\bin\Debug\netstandard1.6\RedisHelper.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\bin\Debug\netstandard1.6\Tools.dll
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\bin\Debug\netstandard1.6\Tools.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\obj\Debug\netstandard1.6\RedisHelper.csprojResolveAssemblyReference.cache
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\obj\Debug\netstandard1.6\RedisHelper.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\obj\Debug\netstandard1.6\RedisHelper.dll
+E:\Git\MyRepository\NetCore\NetCore\src\RedisHelper\obj\Debug\netstandard1.6\RedisHelper.pdb

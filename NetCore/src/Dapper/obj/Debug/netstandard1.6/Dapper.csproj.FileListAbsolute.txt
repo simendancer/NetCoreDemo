@@ -1,0 +1,6 @@
+E:\Git\MyRepository\NetCore\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.deps.json
+E:\Git\MyRepository\NetCore\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dapper\bin\Debug\netstandard1.6\Dapper.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Dapper\obj\Debug\netstandard1.6\Dapper.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\Dapper\obj\Debug\netstandard1.6\Dapper.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Dapper\obj\Debug\netstandard1.6\Dapper.pdb

@@ -1,38 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CD83FE8-1E18-488A-91AF-733C9A8831B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{112951CB-2822-4F5E-A3E6-B37984D32CD3}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Model", "src\Model\Model.xproj", "{8DA89758-899D-4A47-A754-BF8776ABE01B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "src\Model\Model.csproj", "{8DA89758-899D-4A47-A754-BF8776ABE01B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tools", "src\Tools\Tools.xproj", "{D0D67793-8809-4F61-A2DB-F6844B5FB075}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "src\Tools\Tools.csproj", "{D0D67793-8809-4F61-A2DB-F6844B5FB075}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RedisHelper", "src\RedisHelper\RedisHelper.xproj", "{940AEB56-C3BE-41B3-83A0-C6CBDF40D0C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisHelper", "src\RedisHelper\RedisHelper.csproj", "{940AEB56-C3BE-41B3-83A0-C6CBDF40D0C3}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "src\Core\Core.xproj", "{AB67045D-6CD7-42E3-A9CC-F8C0EB47BCD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\Core\Core.csproj", "{AB67045D-6CD7-42E3-A9CC-F8C0EB47BCD7}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web", "src\Web\Web.xproj", "{C516F0E9-79EB-4EA2-8A7D-7F12F4386B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "src\Web\Web.csproj", "{C516F0E9-79EB-4EA2-8A7D-7F12F4386B22}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dapper", "src\Dapper\Dapper.xproj", "{F91B0D3C-81F7-4D20-9815-7F66C7C83109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper", "src\Dapper\Dapper.csproj", "{F91B0D3C-81F7-4D20-9815-7F66C7C83109}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DataAccess", "src\DataAccess\DataAccess.xproj", "{C2653AA5-F03A-4480-9491-D5707ED01F6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "src\DataAccess\DataAccess.csproj", "{C2653AA5-F03A-4480-9491-D5707ED01F6C}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dal", "src\Dal\Dal.xproj", "{A33CB81D-E6CE-4D1B-B07C-94399615136E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dal", "src\Dal\Dal.csproj", "{A33CB81D-E6CE-4D1B-B07C-94399615136E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bll", "src\Bll\Bll.xproj", "{7F6351B4-0D0F-48AA-886F-E91CF371A2B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bll", "src\Bll\Bll.csproj", "{7F6351B4-0D0F-48AA-886F-E91CF371A2B9}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Test", "src\Test\Test.xproj", "{200011B0-512E-4F61-A083-465CA1EFDDAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "src\Test\Test.csproj", "{200011B0-512E-4F61-A083-465CA1EFDDAE}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DapperExtensions", "src\DapperExtensions\DapperExtensions.xproj", "{F0960A1B-D0DA-4D89-97E2-5B6F16C7E294}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperExtensions", "src\DapperExtensions\DapperExtensions.csproj", "{F0960A1B-D0DA-4D89-97E2-5B6F16C7E294}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Api", "src\Api\Api.xproj", "{C6AACBEB-3B23-448D-8ECA-4294D7646A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "src\Api\Api.csproj", "{C6AACBEB-3B23-448D-8ECA-4294D7646A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{F44E6DEA-4B59-437B-8C09-4C3D437F7D6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -88,6 +87,10 @@ Global
 		{C6AACBEB-3B23-448D-8ECA-4294D7646A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6AACBEB-3B23-448D-8ECA-4294D7646A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6AACBEB-3B23-448D-8ECA-4294D7646A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44E6DEA-4B59-437B-8C09-4C3D437F7D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44E6DEA-4B59-437B-8C09-4C3D437F7D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44E6DEA-4B59-437B-8C09-4C3D437F7D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44E6DEA-4B59-437B-8C09-4C3D437F7D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,5 +108,6 @@ Global
 		{200011B0-512E-4F61-A083-465CA1EFDDAE} = {7CD83FE8-1E18-488A-91AF-733C9A8831B0}
 		{F0960A1B-D0DA-4D89-97E2-5B6F16C7E294} = {7CD83FE8-1E18-488A-91AF-733C9A8831B0}
 		{C6AACBEB-3B23-448D-8ECA-4294D7646A16} = {7CD83FE8-1E18-488A-91AF-733C9A8831B0}
+		{F44E6DEA-4B59-437B-8C09-4C3D437F7D6B} = {7CD83FE8-1E18-488A-91AF-733C9A8831B0}
 	EndGlobalSection
 EndGlobal

@@ -18,7 +18,7 @@ namespace Core.Middlewares
             _next = next;
         }
 
-        public Task Invoke(HttpContext httpContext, IConfiguration configuration)
+        public Task Invoke(HttpContext httpContext)
         {
             Tools.Utility.CookieHelper.Instance(httpContext);//实例化cookie
             return _next(httpContext);

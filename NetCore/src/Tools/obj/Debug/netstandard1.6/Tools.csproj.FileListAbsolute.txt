@@ -1,0 +1,6 @@
+E:\Git\MyRepository\NetCore\NetCore\src\Tools\bin\Debug\netstandard1.6\Tools.deps.json
+E:\Git\MyRepository\NetCore\NetCore\src\Tools\bin\Debug\netstandard1.6\Tools.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Tools\bin\Debug\netstandard1.6\Tools.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\Tools\obj\Debug\netstandard1.6\Tools.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\Tools\obj\Debug\netstandard1.6\Tools.dll
+E:\Git\MyRepository\NetCore\NetCore\src\Tools\obj\Debug\netstandard1.6\Tools.pdb

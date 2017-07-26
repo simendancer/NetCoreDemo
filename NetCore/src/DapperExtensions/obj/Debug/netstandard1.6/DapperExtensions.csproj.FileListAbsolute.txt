@@ -1,0 +1,11 @@
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.deps.json
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.dll
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DapperExtensions.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\Dapper.dll
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DataAccess.dll
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\Dapper.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\bin\Debug\netstandard1.6\DataAccess.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\obj\Debug\netstandard1.6\DapperExtensions.csprojResolveAssemblyReference.cache
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\obj\Debug\netstandard1.6\DapperExtensions.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\obj\Debug\netstandard1.6\DapperExtensions.dll
+E:\Git\MyRepository\NetCore\NetCore\src\DapperExtensions\obj\Debug\netstandard1.6\DapperExtensions.pdb

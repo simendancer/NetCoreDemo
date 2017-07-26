@@ -1,0 +1,6 @@
+E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.deps.json
+E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll
+E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\bin\Debug\netstandard1.6\DataAccess.pdb
+E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\obj\Debug\netstandard1.6\DataAccess.AssemblyInfo.cs
+E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\obj\Debug\netstandard1.6\DataAccess.dll
+E:\Git\MyRepository\NetCore\NetCore\src\DataAccess\obj\Debug\netstandard1.6\DataAccess.pdb

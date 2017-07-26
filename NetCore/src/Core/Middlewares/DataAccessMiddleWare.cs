@@ -13,14 +13,14 @@ namespace Core.Middlewares
 
         private static IConfiguration Configuration { get; set; }
 
-        public DataAccessMiddleWare(RequestDelegate next)
+        public DataAccessMiddleWare(RequestDelegate next, IConfiguration configuration)
         {
+            new DataAccess.SqlConnectionFactory(configuration);
             _next = next;
         }
 
-        public Task Invoke(HttpContext httpContext, IConfiguration configuration)
+        public Task Invoke(HttpContext httpContext)
         {
-            new DataAccess.SqlConnectionFactory(configuration);
             return _next(httpContext);
         }
     }
